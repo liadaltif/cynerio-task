@@ -59,7 +59,7 @@ def create_user():
     new_user['Actions'] = "DELETE"
 
     users.append(new_user)
-    return jsonify({"message": "User created successfully"}), 201
+    return jsonify({"message": "User created successfully", "id": new_user['id']}), 201
 
 
 @app.route('/api/users/<int:user_id>', methods=['DELETE'])
