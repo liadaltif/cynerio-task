@@ -1,0 +1,42 @@
+@import './base.css';
+
+#app {
+  width: 100vw; 
+  max-width: 100%; 
+  margin: 0; 
+  padding: 0;
+  font-weight: normal;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+
+  /* I HATE being able to hover over text, when spamming a button, all text */
+  /* Become blue, if wanted though, just delete all the code below  */
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (hover: hover) {
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+  }
+
+  #app {
+    display: flex; 
+    width: 100vw; 
+    grid-template-columns: none;
+  }
+}
