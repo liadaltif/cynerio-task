@@ -1,14 +1,6 @@
 # cynerio-task
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/users?userName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+A Small Project I Created to Practice and Engage with VUE3 and Flask
 
 ## Project Setup
 
@@ -22,8 +14,8 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### To Run The Server: Open Another Powershell Window And Type
 
 ```sh
-npm run build
+ python flaskServer.py
 ```
