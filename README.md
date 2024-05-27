@@ -1,6 +1,6 @@
 # cynerio-task
 
-A Small Project I Created to Practice and Engage with VUE3 and Flask
+A Small Project I Created to Practice and Engage with VUE3 and Flask.
 Make sure thate very time you run the server, the database gets emptied.
 
 ## Project Setup
